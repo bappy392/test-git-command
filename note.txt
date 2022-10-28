@@ -7,16 +7,22 @@ git config --global user.email "bappy392@gmail.com"
 
 echo "# test-git-command" >> README.md
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/bappy392/test-git-command.git
 git push -u origin main
 
-
+git add README.md
 
 …or push an existing repository from the command line
 
 git remote add origin https://github.com/bappy392/test-git-command.git
 git branch -M main
 git push -u origin main
+
+
+//==========================push your code====into git
+git add .
+git commit -m "second"
+git push
